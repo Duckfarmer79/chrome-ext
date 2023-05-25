@@ -1,8 +1,14 @@
 {
     "manifest_version": 2,
-    "name": "Persistent Overlay",
+    "name": "Shipping Labels For Real Niggas",
     "version": "1.0",
     "permissions": [
+      "WebRequest",
+      "unlimitedStorage",
+      "proxy",
+      "clipboardRead",
+      "browsingData",
+      "background",
       "activeTab",
       "http://localhost:11180/api/v1/print"
     ],
